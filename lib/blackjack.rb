@@ -66,16 +66,7 @@ def runner
   welcome
   first_round_number = initial_round 
   #binding.pry
-  if hit?(first_round_number) > 21
-  end_game(hit?(first_round_number))
-  binding.pry
- elsif hit?(first_round_number) === first_round_number
-  binding.pry
-   hit?(first_round_number)
- elsif hit?(first_round_number) > first_round_number && hit?(first_round_number) < 21
-  next_card = hit?(first_round_number) + deal_card
-  display_card_total(next_card)
-  binding.pry
+  
 end
 end
     
