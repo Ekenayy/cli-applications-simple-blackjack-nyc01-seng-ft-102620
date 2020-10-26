@@ -66,9 +66,10 @@ def runner
   welcome
   first_round_number = initial_round 
  if hit?(first_round_number) === first_round_number
+  binding.pry
    hit?(first_round_number)
  #elsif hit?(first_round_number) > first_round_number && <
-  binding.pry
+  #binding.pry
 end
 end
     
