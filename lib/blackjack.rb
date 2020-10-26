@@ -45,7 +45,7 @@ input = get_user_input
    return final_count
   elsif input === 's'
     return number
-    binding.pry
+    #binding.pry
   else
     invalid_command
     prompt_user
