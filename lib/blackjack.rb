@@ -68,6 +68,7 @@ def runner
   #binding.pry
   
   until first_round_number > 21
+  new_card_total = hit?(first_round_number)
 end
 end
     
