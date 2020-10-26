@@ -69,6 +69,7 @@ def runner
   
   until first_round_number > 21
   new_card_total = hit?(first_round_number)
+  display
 end
 end
     
