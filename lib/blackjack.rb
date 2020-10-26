@@ -66,8 +66,8 @@ def runner
   # code runner here
   welcome
   initial_round 
-  #conditional layer 
   hit?
+  binding.pry
 #if card_total > 21
   end_game 
 end
