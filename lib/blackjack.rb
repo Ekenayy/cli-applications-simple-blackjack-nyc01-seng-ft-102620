@@ -64,9 +64,9 @@ end
 
 def runner
   welcome
-  initial_round 
-  #hit?
-  #binding.pry
+  first_round_number = initial_round 
+  hit?(first_round_number)
+  binding.pry
 #if card_total > 21
   #end_game 
 end
