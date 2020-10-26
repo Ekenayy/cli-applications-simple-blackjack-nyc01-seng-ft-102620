@@ -43,8 +43,9 @@ input = get_user_input
   if input === "h"
    final_count = number + deal_card
    final_count
-  #elsif input === 's'
-    #number 
+  elsif input === 's'
+    number
+    binding.pry
   #else
     # invalid_command
     # prompt_user
