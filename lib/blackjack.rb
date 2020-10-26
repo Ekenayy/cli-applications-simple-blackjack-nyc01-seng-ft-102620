@@ -65,6 +65,7 @@ end
 def runner
   welcome
   first_round_number = initial_round 
+  hit?(round_number)
   binding.pry
  if hit?(first_round_number) === first_round_number
   binding.pry
