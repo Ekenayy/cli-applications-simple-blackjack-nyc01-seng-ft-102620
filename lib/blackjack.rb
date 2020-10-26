@@ -49,7 +49,7 @@ input = get_user_input
   elsif input != 's' || 'h'
     invalid_command
     prompt_user
-    #get_user_input
+    get_user_input
    end
 end
 
