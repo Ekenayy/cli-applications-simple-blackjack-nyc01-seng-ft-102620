@@ -67,6 +67,7 @@ def runner
   first_round_number = initial_round 
   #binding.pry
   
+  until first_round_number > 21
 end
 end
     
