@@ -46,7 +46,7 @@ input = get_user_input
   elsif input === 's'
     return number
     #binding.pry
-  elsif input !== 's' || 'h'
+  elsif input != 's' || 'h'
     invalid_command
     prompt_user
     #get_user_input
