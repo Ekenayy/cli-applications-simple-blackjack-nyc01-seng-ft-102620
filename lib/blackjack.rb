@@ -72,7 +72,7 @@ def runner
  elsif hit?(first_round_number) > first_round_number && < 21
   next_card = hit?(first_round_number) + deal_card
   display_card_total(next_card)
-  #binding.pry
+  binding.pry
 end
 end
     
