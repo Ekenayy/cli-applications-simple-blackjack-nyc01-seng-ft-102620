@@ -63,11 +63,10 @@ end
 #####################################################
 
 def runner
-  # code runner here
   welcome
   initial_round 
   hit?
-  binding.pry
+  #binding.pry
 #if card_total > 21
   end_game 
 end
