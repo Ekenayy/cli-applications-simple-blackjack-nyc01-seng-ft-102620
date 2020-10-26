@@ -65,7 +65,7 @@ end
 def runner
   welcome
   initial_round 
-  hit?
+  #hit?
   #binding.pry
 #if card_total > 21
   end_game 
